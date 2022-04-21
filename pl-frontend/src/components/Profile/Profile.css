@@ -1,0 +1,53 @@
+:root {
+    --body-bg-color: #f0f2f5;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.profile-page .profile-image {
+    width: 100%;
+}
+
+.profile-page .side-content > .ant-row {
+    padding-bottom: 40px;
+}
+
+.profile-page .side-content > .ant-row:last-of-type {
+    padding-bottom: 0;
+}
+
+.profile-page .side-content > .section > .ant-col {
+    padding: 12px 0;
+}
+
+.profile-page .side-content > .section > .ant-col:first-of-type {
+    padding-top: 0;
+}
+
+.profile-page .side-content > .section > .ant-col:last-of-type {
+    padding-bottom: 0;
+}
+
+.profile-page .section-wrapper {
+    width: 90%;
+    border-bottom: 2px solid #888888;
+    line-height: 0.1em;
+}
+
+.profile-page .section-tag {
+    background: var(--body-bg-color);
+    color: #888888;
+    padding-right: 10px;
+}
+
+.profile-page .learning-goal-link,
+.profile-page .article-link {
+    font-size: 20px;
+}
+
+.about-me-block {
+    white-space: pre-line;
+}

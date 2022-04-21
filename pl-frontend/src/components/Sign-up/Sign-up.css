@@ -1,0 +1,7 @@
+.sign-up-row * {
+    text-align: initial;
+}
+
+.sign-up-row .ant-form {
+    min-width: 45%;
+}

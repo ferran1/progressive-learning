@@ -1,0 +1,93 @@
+:root {
+    --primary-text-color: #16133E;
+    --paragraph-color: #183B56;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.landing > .ant-row {
+    padding-bottom: 120px;
+}
+
+.landing > .ant-row:first-of-type {
+    padding-top: 60px;
+}
+
+.landing > .ant-row:last-of-type {
+    padding-bottom: 0;
+}
+
+.landing .ant-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.landing .ant-col:first-child {
+    padding-left: 0;
+}
+
+.landing .ant-col:last-child {
+    padding-right: 0;
+}
+
+h1.ant-typography {
+    color: var(--primary-text-color);
+}
+
+span.ant-typography-secondary {
+    color: var(--paragraph-color);
+}
+
+.icon-wrapper {
+    overflow: hidden;
+}
+
+.icon-wrapper > .icon-container {
+    display: block;
+    float: left;
+    clear: left;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    padding: 8px 16px;
+}
+
+.ant-card h3 {
+    margin-top: 16px;
+}
+
+.ant-card .ant-btn {
+    padding: 0;
+}
+
+.ant-card.cover-inline > .ant-card-cover {
+    position: relative;
+}
+
+.landing .featured-item-text {
+    position: absolute;
+    padding: 42px;
+    bottom: 0;
+    font-size: 200%;
+    margin: 0;
+    color: #FFF;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.ant-card.cover-inline > .ant-card-body {
+    padding: 0;
+}
+
+.ant-row-center * {
+    text-align: center;
+}
+
+.ant-carousel h3 {
+    height: 160px;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    background: #364d79;
+}

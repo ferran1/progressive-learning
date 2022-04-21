@@ -1,0 +1,26 @@
+.profile-settings.container {
+    margin: 60px auto 0 auto;
+    padding: 0 50px;
+}
+
+.profile-settings .content-container {
+    background-color: #FFF;
+    padding: 24px;
+    min-height: 380px;
+}
+
+.profile-settings > .page-breadcrumb {
+    margin: 16px;
+}
+
+.profile-settings .full-width {
+    width: 100%;
+}
+
+#profile-updated-msg.invisible {
+    display: none;
+}
+
+#profile-updated-msg.visible {
+    display: block;
+}

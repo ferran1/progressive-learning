@@ -1,0 +1,47 @@
+.section {
+ margin-top: 20px;
+}
+
+.learning_goal-card {
+ height: 100%;
+ width: 85%;
+ border-radius: 10px;
+ border: lightgray 1px solid;
+}
+
+.learning_goal-card .card-section {
+ border-bottom: 1px solid lightgray;
+ min-height: 100px;
+ height: 100%;
+}
+
+.learning_goal-card h3 {
+ margin-left:15px;
+}
+
+.learning_goal-card .card-section p {
+ margin: 15px;
+}
+
+.learning_unit-list {
+
+}
+
+.learning_unit-item {
+ margin: 10px;
+ padding: 5px;
+ border: 1px solid lightgray;
+}
+
+.steps-content {
+ min-height: 150px;
+ margin-top: 16px;
+ padding: 10px;
+ /*padding-top: 40px;*/
+ text-align: left;
+ background-color: #fafafa;
+ border: 1px dashed #e9e9e9;
+ border-radius: 2px;
+}
+
+

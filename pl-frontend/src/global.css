@@ -1,0 +1,199 @@
+@import '../src/helpers/editorStyles.css';
+
+/* GLOBAL CSS */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* START UTILITY CLASSES */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.overflow-y {
+    overflow-y: scroll;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%;
+}
+/* END UTILITY CLASSES */
+
+
+/* BUTTON TYPES */
+
+.edit-button {
+    color: white;
+    background-color: limegreen;
+    border-color: limegreen;
+}
+
+.edit-button:hover {
+    color: white;
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.edit-button:focus {
+    color: white;
+    background-color: limegreen;
+    border-color: limegreen;
+}
+
+/* END BUTTON TYPES */
+
+.section-tag {
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-container {
+    min-height: 823px;
+}
+
+.lg-item {
+    border: 1px solid #364d79;
+    background-color: white;
+}
+
+.progress-bar {
+   width: 100px;
+}
+
+.subject-item {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.vote-icon {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.vote-icon-inline {
+    color: rgba(0, 0, 0, 0.45);
+    vertical-align: -webkit-baseline-middle;
+}
+
+.vote-label {
+    vertical-align: super;
+    margin: 0 !important;
+}
+
+.vote-label-inline {
+    vertical-align: -webkit-baseline-middle;
+    margin: 0 !important;
+}
